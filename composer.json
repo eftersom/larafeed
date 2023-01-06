@@ -1,0 +1,29 @@
+{
+    "name": "eftersom/larafeed",
+    "type": "project",
+    "version": "dev-master",
+    "description": "Laravel feed.",
+    "license": "MIT",
+    "require": {
+        "php": "^7.3|^8.0",
+        "laravel/framework": "^6.0|^7.0|^8.0|^9.0",
+        "stevebauman/purify": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Eftersom\\Larafeed\\": "src/"
+        },
+        "classmap": [
+            "src/Http/Controllers/"
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Eftersom\\Larafeed\\Providers\\LarafeedServiceProvider"
+            ]
+        }
+    }
+}
