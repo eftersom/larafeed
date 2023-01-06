@@ -1,6 +1,6 @@
 {
     "name": "eftersom/larafeed",
-    "type": "project",
+    "type": "library",
     "description": "Laravel feed.",
     "license": "MIT",
     "authors": [
