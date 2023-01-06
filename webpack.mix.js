@@ -11,6 +11,7 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/js/larafeed.js', 'public/js')
+mix.setPublicPath('./public')
+.js('resources/js/larafeed.js', 'public/js')
     .sass('resources/sass/larafeed.scss', 'public/css')
     .version();

@@ -8,7 +8,7 @@
 - Laravel >= 6.* (through to 9.*)
 ## Introduction
 
-Larafeed is an open source package for use within [Laravel](https://laravel.com) applications. This package focuses on allowing users to create an RSS feed loader within their application. Usable by multiple users within the same application.
+Larafeed is an open source package for use within [Laravel](https://laravel.com) applications. This package focuses on allowing users to add an RSS feed reader to an existing Laravel application. Usable by multiple users within the same application.
 
 <p align="center">
   <kbd><img src="https://github.com/eftersom/larafeed/blob/main/public/images/larafeedpageexample.png"></kbd>

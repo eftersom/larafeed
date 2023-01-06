@@ -37,6 +37,22 @@
         display: flex;
         overflow: hidden;
     }
+
+    .footer-height {
+        height: 5rem;
+    }
+    
+    @media (min-width: 768px) {
+        .footer-height {
+            height: 3rem;
+        }
+     }
+    
+     @media (min-width: 768px) {
+        #mobile-menu.navbar-collapse {
+            display: none !important;
+        }
+    }
     
     .vh-5 {
         height: 5vh !important;
@@ -78,9 +94,9 @@
     }
     
     .flex-center {
-        align-items: center;
         display: flex;
         justify-content: center;
+        margin-top: 10rem;
     }
     
     .position-ref {

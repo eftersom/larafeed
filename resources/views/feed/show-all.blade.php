@@ -29,7 +29,7 @@
                     @forelse($feeds->chunk(3) as $feedRow)
                         @foreach($feedRow as $key => $feedColumn)
                             @if ($key % 2 !== 0)
-                                <div class="col-lg-2 vh-25"></div>
+                                <div class="col-lg-2 vh-25 d-none d-md-block"></div>
                             @endif
                             <div class="col-lg-5 col-sm-12 vh-25 p-0 mt-4 position-relative">
                                 @if (Auth::check() && Auth::user()->id === $user)

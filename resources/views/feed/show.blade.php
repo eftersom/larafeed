@@ -18,25 +18,23 @@
                         @if ($feed['entries'])
                             @forelse($feed['entries'] as $entry)
                                 <li class="list-group-item">
-                                    <div class="row">
-                                        <h3 class="col-12 nav-header disabled mb-4">{{ $entry['title'] ?? ''}}</h3>
-                                        <div class="col-md-2 col-xs-12">
-                                            <div class="thumbnail-container">
-                                                <img class="img-thumbnail mb-4" src="{{ $entry['image'] ? $entry['image'] : asset('vendor/larafeed/images/default.png') }}" />
+                                    <a href="{{ $entry['link'] ?? ''}}" class="text-decoration-none link-secondary">
+                                        <div class="row">
+                                            <h3 class="col-12 nav-header disabled mb-4">{{ $entry['title'] ?? ''}}</h3>
+                                            <div class="col-md-2 col-xs-12">
+                                                <div class="thumbnail-container">
+                                                    <img class="img-thumbnail mb-4" src="{{ $entry['image'] ? $entry['image'] : asset('vendor/larafeed/images/default.png') }}" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-10 col-xs-12 card-text mb-4">{!! $entry['description'] ?? '' !!}</div>
+                                            <div class="card-footer mt-3">
+                                                <div class="footer-height row">
+                                                    <p class="col-md-10 col-sm-12 text-muted">{{ $entry['published_date'] ?? ''}}</p>
+                                                    <small class="col-md-2 col-sm-12">{{ __('larafeed::general.article_click') }} </small>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-10 col-xs-12 card-text mb-4">{!! $entry['description'] ?? '' !!}</div>
-                                        <div class="card-footer mt-3">
-                                            <div class="vh-5 row">
-                                                <p class="col-10 text-muted">{{ $entry['published_date'] ?? ''}}</p>
-                                                <a href="{{ $entry['link'] ?? ''}}"
-                                                type="button"
-                                                class="btn btn-outline-dark pt-2 col-2">
-                                                    {{ __('larafeed::general.full_article') }}
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    </a>
                                 </li>
                             @empty
                                 <li class="list-group-item">{{ __('larafeed::general.no_posts') }}</li>
