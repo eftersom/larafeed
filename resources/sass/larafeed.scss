@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 
+
+@media (min-width: 768px) {
+    .navbar-expand-md .navbar-collapse {
+        display: none !important;
+    }
+}
+
 #larafeed {
     background-color: #fff;
     color: #636b6f;
@@ -37,7 +44,17 @@
         display: flex;
         overflow: hidden;
     }
+
+    .footer-height {
+        height: 5rem;
+    }
     
+    @media (min-width: 768px) {
+        .footer-height {
+            height: 3rem;
+        }
+     }
+
     .vh-5 {
         height: 5vh !important;
     }
@@ -78,9 +95,9 @@
     }
     
     .flex-center {
-        align-items: center;
         display: flex;
         justify-content: center;
+        margin-top: 10rem;
     }
     
     .position-ref {
