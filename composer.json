@@ -1,7 +1,6 @@
 {
     "name": "eftersom/larafeed",
     "type": "project",
-    "version": "dev-master",
     "description": "Laravel feed.",
     "license": "MIT",
     "require": {
