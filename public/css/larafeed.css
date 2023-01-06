@@ -1,4 +1,5 @@
-@import url(https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap);#larafeed {
+@import url(https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap);
+#larafeed {
   background-color: #fff;
   color: #636b6f;
   font-family: "Nunito", sans-serif;
@@ -10,61 +11,49 @@
   background: #f7f7f7;
   padding: 80px 0;
 }
-
 #larafeed .breadcrumb .active {
   font-weight: 800;
   color: darkgrey;
   pointer-events: none;
 }
-
 #larafeed .thumbnail-container {
   width: 6rem;
   height: 6rem;
 }
-
 #larafeed .img-thumbnail {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-
 #larafeed .border-dark {
   --bs-border-opacity: 0.1;
 }
-
 #larafeed .flexbox {
   display: flex;
   overflow: hidden;
 }
-
 #larafeed .vh-5 {
   height: 5vh !important;
 }
-
 #larafeed .vh-10 {
   height: 10vh !important;
 }
-
 #larafeed .vh-15 {
   height: 15vh !important;
 }
-
 #larafeed .vh-25 {
   height: 25vh !important;
 }
-
 #larafeed .vh-40 {
   height: 40vh !important;
 }
-
 #larafeed .image-wrapper {
   overflow: hidden;
   position: relative;
   background: rgba(0, 0, 0, 0.5);
   margin: 0 auto;
 }
-
 #larafeed .image-wrapper img {
   width: 100%;
   position: absolute;
@@ -72,35 +61,28 @@
   top: 50%;
   transform: translateY(-50%);
 }
-
 #larafeed .full-height {
   height: 100vh;
 }
-
 #larafeed .flex-center {
   align-items: center;
   display: flex;
   justify-content: center;
 }
-
 #larafeed .position-ref {
   position: relative;
 }
-
 #larafeed .top-right {
   position: absolute;
   right: 10px;
   top: 18px;
 }
-
 #larafeed .content {
   text-align: center;
 }
-
 #larafeed .title {
   font-size: 84px;
 }
-
 #larafeed .links > a {
   color: #636b6f;
   padding: 0 25px;
@@ -110,17 +92,14 @@
   text-decoration: none;
   text-transform: uppercase;
 }
-
 #larafeed .m-b-md {
   margin-bottom: 30px;
 }
-
 #larafeed #feed .feed-container .close {
   position: absolute;
   top: 0;
   right: 0;
 }
-
 #larafeed #feed .feed-container .close .btn {
   outline: none;
   border: 0;
@@ -129,23 +108,19 @@
   color: whitek;
   border-radius: 0;
 }
-
 #larafeed #feed .feed-item {
   height: 25vh;
   margin-bottom: 30px;
   overflow: hidden;
 }
-
 #larafeed #feed .feed-item:nth-child(even) {
   padding-left: 2rem;
 }
-
 #larafeed #feed .feed-item img {
   position: relative;
   top: 0;
   transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
-
 #larafeed #feed .feed-item .feed-info {
   opacity: 0;
   position: absolute;
@@ -157,19 +132,16 @@
   background: #2dc997;
   padding: 1rem;
 }
-
 #larafeed #feed .feed-item .feed-info h4 {
   font-size: 18px;
   color: #fff;
   font-weight: 600;
 }
-
 #larafeed #feed .feed-item .feed-info p {
   color: #fff;
   font-size: 14px;
   margin-bottom: 0;
 }
-
 #larafeed #feed .feed-item .feed-info .preview-link,
 #larafeed #feed .feed-item .feed-info .details-link {
   position: absolute;
@@ -179,16 +151,13 @@
   color: white;
   transition: ease-in-out 0.3s;
 }
-
 #larafeed #feed .feed-item .feed-info .preview-link:hover,
 #larafeed #feed .feed-item .feed-info .details-link:hover {
   color: #a4ebd4;
 }
-
 #larafeed #feed .feed-item .feed-info .details-link {
   right: 15px;
 }
-
 #larafeed #feed .feed-item img {
   width: auto;
   height: 100%;
@@ -196,13 +165,10 @@
   left: 50%;
   transform: translateX(-50%);
 }
-
 #larafeed #feed .feed-item:hover img {
   top: -30px;
 }
-
 #larafeed #feed .feed-item:hover .feed-info {
   opacity: 1;
   bottom: 0;
 }
-

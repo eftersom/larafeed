@@ -7,6 +7,7 @@ return [
     'no_feeds'         => "There are no newsfeed items to display.",
     'click_below'      => "Click the link below to see content for this feed!",
     'submit'           => "Submit",
+    'article_click'    => "Click the article to read more!",
 
     'full_article' => "Full Article",
     'no_posts'     => "This feed has no posts",

@@ -1,9 +1,14 @@
 {
     "name": "eftersom/larafeed",
-    "type": "project",
-    "version": "dev-master",
+    "type": "library",
     "description": "Laravel feed.",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Eftersom",
+            "email": "eftersom.me@gmail.com"
+        }
+    ],
     "require": {
         "php": "^7.3|^8.0",
         "laravel/framework": "^6.0|^7.0|^8.0|^9.0",
